@@ -23,6 +23,9 @@
     "electron:build": "echo NOT SUPPORTED YET && HOME=~/.electron-gyp node-gyp --target=$npm_package_config_target --arch=$npm_package_config_arch --dist-url=https://atom.io/download/electron build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "v8-compiler": "./bin/v8-compiler.js"
+  },
   "dependencies": {
     "commander": "^2.9.0",
     "nan": "^2.6.1"

@@ -13,7 +13,6 @@ build
 
 # Dependency directories
 node_modules
-node_source
 jspm_packages
 
 # Optional npm cache directory
